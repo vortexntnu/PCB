@@ -1,4 +1,4 @@
-update=fr. 27. jan. 2017 kl. 20.23 +0100
+update=fr. 27. jan. 2017 kl. 21.47 +0100
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/usr/share/kicad/library/contrib_symbols_dl1eic;library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=library/ms5837-30ba

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sindre/Documents/Vortex/PCB/MS5837_mount/MS5837_mount.sch)
-    (date "fr. 27. jan. 2017 kl. 22.08 +0100")
+    (date "lø. 28. jan. 2017 kl. 10.50 +0100")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,16 +17,19 @@
   (components
     (comp (ref C1)
       (value C)
+      (footprint Capacitors_SMD:C_0805_HandSoldering)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 588BA7B7))
     (comp (ref P1)
       (value CONN_01X04)
+      (footprint Pin_Headers:Pin_Header_Straight_1x04)
       (libsource (lib conn) (part CONN_01X04))
       (sheetpath (names /) (tstamps /))
       (tstamp 588BAA97))
     (comp (ref U1)
       (value MS5837-30BA)
+      (footprint MS5837:MS5837-BA30)
       (libsource (lib ms5837-30ba) (part MS5837-30BA))
       (sheetpath (names /) (tstamps /))
       (tstamp 588BB31E)))
